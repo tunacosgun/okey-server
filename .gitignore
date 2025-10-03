@@ -1,0 +1,34 @@
+# build output
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# user/project files
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.swp
+.vscode/
+.idea/
+.vs/
+
+# logs
+*.log
+logs/
+
+# publish artifacts
+publish/
+*.zip
+*.tar
+*.gz
+
+# secrets
+appsettings.*.local.json
+*.secret.json
+
+# OS
+.DS_Store
+Thumbs.db
