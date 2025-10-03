@@ -1,34 +1,12 @@
-# build output
+cat > .gitignore << 'EOF'
 bin/
 obj/
-out/
-Debug/
-Release/
-
-# user/project files
 *.user
 *.suo
 *.userprefs
-*.csproj.user
-*.swp
+*.vs/
 .vscode/
-.idea/
-.vs/
-
-# logs
-*.log
 logs/
-
-# publish artifacts
-publish/
-*.zip
-*.tar
-*.gz
-
-# secrets
-appsettings.*.local.json
-*.secret.json
-
-# OS
-.DS_Store
-Thumbs.db
+**/Properties/launchSettings.json
+*/appsettings.Development.json
+EOF
