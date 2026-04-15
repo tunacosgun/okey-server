@@ -79,3 +79,9 @@ dotnet run -p GameServer/GameServer.csproj
 <div align="center">
 <b>High-performance networking for classic multiplayer experiences.</b>
 </div>
+
+
+## Contributors
+
+- Tunahan Coşgun — <info@tunahancosgun.dev>
+- Duygu Durmuş — <duygudurmus12@gmail.com>
